@@ -1,0 +1,19 @@
+{
+  "active": true,
+  "category": "UI Action",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "common-name": "Mark As Spam",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "ui action",
+    "spam"
+  ],
+  "type": "Snippet",
+  "version": "1.0.0"
+}

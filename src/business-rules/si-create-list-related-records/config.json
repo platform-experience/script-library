@@ -1,0 +1,20 @@
+{
+  "active": true,
+  "category": "Business Rule",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London"
+  ],
+  "common-name": "Create List Related Records",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "business rule",
+    "form",
+    "list"
+  ],
+  "type": "Snippet",
+  "version": "1.0.0"
+}

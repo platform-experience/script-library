@@ -1,0 +1,12 @@
+{
+  "name": "innovation-library-snippets",
+  "version": "1.0.0",
+  "description": "A collection of ServiceNow snippets",
+  "main": "index.js",
+  "scripts": {
+    "build": "./scripts/build.sh"
+  },
+  "author": "Steven Gregory",
+  "license": "ISC",
+  "keywords": []
+}
