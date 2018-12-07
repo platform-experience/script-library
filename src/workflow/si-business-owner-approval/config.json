@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Workflow",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Business Owner Approval",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "business-owner-approval",
+  "solution-details": "This grabs the Business Service Owner's approval for any upstream CI's.",
+  "type": "Script",
+  "version": "1.0.0"
+}

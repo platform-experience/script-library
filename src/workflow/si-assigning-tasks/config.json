@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Workflow",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Assigning Tasks",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "assigning-tasks",
+  "solution-details": "Assigning Tasks in the Workflow.",
+  "type": "Script",
+  "version": "1.0.0"
+}

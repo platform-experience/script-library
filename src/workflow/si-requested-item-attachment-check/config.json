@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Workflow",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Requested Item Attachment Check",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "requested-item-attachment-check",
+  "solution-details": "Setting Checking to see if the user attached an attachment to the form or SC Requested Item.",
+  "type": "Script",
+  "version": "1.0.0"
+}

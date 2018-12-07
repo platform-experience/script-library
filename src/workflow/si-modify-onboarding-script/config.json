@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Workflow",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Modify OnBoarding Script",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "modify-onboarding-script",
+  "solution-details": "Modify OnBoarding Script to facilitate a notification - Synch to User Group Records Activity.",
+  "type": "Script",
+  "version": "1.0.0"
+}
