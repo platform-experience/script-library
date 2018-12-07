@@ -5,22 +5,30 @@ source ./scripts/messages.sh
 
 create_base_dir() {
   echo -e "${BLUE}${START_MSG}${RESET}"
-  local script_dir="./src/${args[0]}/${PREFIX}-${args[1]}"
+  local script_dir="./src/${category}/${PREFIX}-${name}"
   if [ -d $script_dir ]; then
     echo -e "${BLUE}${EXIST_MSG}${RESET}"
   else
     echo -e "${BLUE}${SCAFFOLD_MSG}${RESET}"
-    mkdir "./src/${args[0]}/${PREFIX}-${args[1]}"
+    mkdir "./src/${category}/${PREFIX}-${name}"
     create_config
-    touch ${script_dir}/README.md
+    create_readme
     touch ${script_dir}/script.js
   fi
 }
 
 create_config() {
   curl ${CONFIG_GIST} > ${script_dir}/config.json
-  replace_content "${NAME_TEMP}" "${args[1]}" ${script_dir}/config.json
   map_category ${script_dir}
+  replace_content "${NAME_TEMP}" "${name}" ${script_dir}/config.json
+  replace_content "${COMMON_NAME_TEMP}" "${common_name}" ${script_dir}/config.json
+  replace_content "${SOLUTION_DETAILS_TEMP}" "${solution_details}" ${script_dir}/config.json
+}
+
+create_readme() {
+  curl ${README_GIST} > ${script_dir}/README.md
+  replace_content "${TITLE_TEMP}" "${common_name}" ${script_dir}/README.md
+  replace_content "${DETAILS_TEMP}" "${solution_details}" ${script_dir}/README.md
 }
 
 main() {
@@ -28,7 +36,7 @@ main() {
 }
 
 map_category() {
-  for i in "${args[0]}"; do
+  for i in "${category}"; do
     case $i in
     body-html-template)
       replace_content "${CAT_TEMP}" "${CAT_BODY_HTML_TEMPLATE}" ${1}/config.json
@@ -81,4 +89,8 @@ replace_content() {
 }
 
 args=($@)
+category=$1
+name=$2
+common_name=$3
+solution_details=$4
 main

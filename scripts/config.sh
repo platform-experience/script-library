@@ -17,11 +17,16 @@ CAT_UI_SCRIPT='UI Script'
 CAT_WORKFLOW='Workflow'
 
 # gists
-CONFIG_GIST=https://gist.githubusercontent.com/stevengregory/7f2736b280ac1bd7dba5084a8a3b38e5/raw/a10c157bec5b7f5cb3f91c6097473f91802437ec/config.json
+CONFIG_GIST=https://gist.githubusercontent.com/stevengregory/27b8623c2fc4456544f63ce3b3b70edd/raw/e6ec77722383da95398ba3d7019808a7e3fc2e1d/config.json
+README_GIST=https://gist.githubusercontent.com/stevengregory/312026b03c90b695c9052e54eaa1cc87/raw/e79500c1a736997806897149a19371f5d4eaa2db/README.md
 
 # prefix
 PREFIX=si
 
 # temp content
-CAT_TEMP='Business Rule'
-NAME_TEMP='test-script'
+CAT_TEMP='Temp Category'
+DETAILS_TEMP='Temp details'
+NAME_TEMP='temp-name'
+COMMON_NAME_TEMP='Temp Common Name'
+SOLUTION_DETAILS_TEMP='Temp details'
+TITLE_TEMP='Temp Title'
