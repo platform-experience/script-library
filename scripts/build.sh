@@ -11,14 +11,49 @@ create_base_dir() {
   else
     echo -e "${BLUE}${SCAFFOLD_MSG}${RESET}"
     mkdir "./src/${args[0]}/${PREFIX}-${args[1]}"
-    curl ${CONFIG_GIST} > ${script_dir}/config.json
+    create_config
     touch ${script_dir}/README.md
     touch ${script_dir}/script.js
   fi
 }
 
+create_config() {
+  curl ${CONFIG_GIST} > ${script_dir}/config.json
+  replace_content "${NAME_TEMP}" "${args[1]}" ${script_dir}/config.json
+  map_category ${script_dir}
+}
+
 main() {
   create_base_dir
+}
+
+map_category() {
+  for i in "${args[0]}"; do
+    case $i in
+    business-rule)
+      replace_content "${CAT_TEMP}" "${CAT_BUSINESS_RULE}" ${1}/config.json
+      ;;
+    client-script)
+      replace_content "${CAT_TEMP}" "${CAT_CLIENT_SCRIPT}" ${1}/config.json
+      ;;
+    script-include)
+      replace_content "${CAT_TEMP}" "${CAT_SCRIPT_INCLUDE}" ${1}/config.json
+      ;;
+    ui-action)
+      replace_content "${CAT_TEMP}" "${CAT_UI_ACTION}" ${1}/config.json
+      ;;
+    ui-policy)
+      replace_content "${CAT_TEMP}" "${CAT_UI_POLICY}" ${1}/config.json
+      ;;
+    workflow)
+      replace_content "${CAT_TEMP}" "${CAT_WORKFLOW}" ${1}/config.json
+      ;;
+    esac
+  done
+}
+
+replace_content() {
+  sed -i '' -e "s/${1}/${2}/g" ${3}
 }
 
 args=($@)
