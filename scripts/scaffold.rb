@@ -25,8 +25,8 @@ def to_slug(category)
 end
 
 doc = Nokogiri::XML(File.open("tmp/scripts.xml"))
-persons = doc.xpath(Config::XML_NODE)
-persons_data = persons.map {|person|
+scripts = doc.xpath(Config::XML_NODE)
+person_data = scripts.map {|person|
   {
     type: person.xpath("./script_type").text,
     description: person.xpath("./short_description").text,
@@ -36,7 +36,7 @@ persons_data = persons.map {|person|
 }
 
 count = 1
-persons_data.each do |item|
+script_data.each do |item|
   if !item[:script].empty? && !item[:type].empty? && !item[:description].empty?
     category = item[:type]
     description = item[:description]
