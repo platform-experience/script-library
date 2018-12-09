@@ -7,4 +7,5 @@ module Config
   COMMON_NAME_TEMP = 'Temp Common Name'
   SOLUTION_DETAILS_TEMP = 'Temp details'
   TITLE_TEMP = 'Temp Title'
+  XML_NODE = '//x_snc_servicenow_s_servicenow_scripting'
 end

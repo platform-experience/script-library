@@ -2,10 +2,6 @@ require 'fileutils'
 require 'nokogiri'
 require_relative 'config'
 
-def replace_content(arg1, arg2, arg3)
-  %x( sed -i '' -e "s/#{arg1}/#{arg2}/g" #{arg3} )
-end
-
 def create_config(dir_name, category, details)
   config_dir = "#{dir_name}/config.json"
   %x( curl #{Config::CONFIG_GIST} > #{config_dir} )
@@ -20,12 +16,16 @@ def create_readme(dir_name, description, details)
   replace_content(Config::SOLUTION_DETAILS_TEMP, details, readme_dir)
 end
 
+def replace_content(arg1, arg2, arg3)
+  %x( sed -i '' -e "s/#{arg1}/#{arg2}/g" #{arg3} )
+end
+
 def to_slug(category)
   return category.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 end
 
 doc = Nokogiri::XML(File.open("tmp/scripts.xml"))
-persons = doc.xpath("//x_snc_servicenow_s_servicenow_scripting")
+persons = doc.xpath(Config::XML_NODE)
 persons_data = persons.map {|person|
   {
     type: person.xpath("./script_type").text,
