@@ -1,6 +1,6 @@
 require 'fileutils'
-require 'nokogiri'
 require_relative 'config'
+require_relative 'map_xml'
 
 def create_config(dir_name, category, details)
   config_dir = "#{dir_name}/config.json"
@@ -17,26 +17,15 @@ def create_readme(dir_name, description, details)
 end
 
 def replace_content(arg1, arg2, arg3)
-  %x( sed -i '' -e "s/#{arg1}/#{arg2}/g" #{arg3} )
+  return %x( sed -i '' -e "s/#{arg1}/#{arg2}/g" #{arg3} )
 end
 
 def to_slug(category)
   return category.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 end
 
-doc = Nokogiri::XML(File.open("tmp/scripts.xml"))
-scripts = doc.xpath(Config::XML_NODE)
-person_data = scripts.map {|person|
-  {
-    type: person.xpath("./script_type").text,
-    description: person.xpath("./short_description").text,
-    details: person.xpath("./details").text,
-    script: person.xpath("./script").text
-  }
-}
-
 count = 1
-script_data.each do |item|
+MapXml.do_map.each do |item|
   if !item[:script].empty? && !item[:type].empty? && !item[:description].empty?
     category = item[:type]
     description = item[:description]

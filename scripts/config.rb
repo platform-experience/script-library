@@ -9,5 +9,3 @@ module Config
   TITLE_TEMP = 'Temp Title'
   XML_NODE = '//x_snc_servicenow_s_servicenow_scripting'
 end
-
-Config.freeze
