@@ -24,17 +24,21 @@ def to_slug(category)
   return category.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 end
 
-count = 1
-MapXml.do_map.each do |item|
-  if !item[:script].empty? && !item[:type].empty? && !item[:description].empty?
-    category = item[:type]
-    description = item[:description]
-    details = !item[:details].empty? ? item[:details] : item[:description]
-    dir_name = "dist/#{to_slug(category)}/si-script-#{count}"
-    FileUtils.mkdir_p(dir_name) unless File.exists?(dir_name)
-    File.write("#{dir_name}/script.js", item[:script])
-    create_config(dir_name, category, description)
-    create_readme(dir_name, description, details)
-    count = count + 1
+def scaffold_scripts
+  count = 1
+  MapXml.do_map.each do |item|
+    if !item[:script].empty? && !item[:type].empty? && !item[:description].empty?
+      category = item[:type]
+      description = item[:description]
+      details = !item[:details].empty? ? item[:details] : item[:description]
+      dir_name = "dist/#{to_slug(category)}/si-script-#{count}"
+      FileUtils.mkdir_p(dir_name) unless File.exists?(dir_name)
+      File.write("#{dir_name}/script.js", item[:script])
+      create_config(dir_name, category, description)
+      create_readme(dir_name, description, details)
+      count = count + 1
+    end
   end
 end
+
+scaffold_scripts
