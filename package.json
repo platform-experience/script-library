@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "./scripts/build.sh",
-    "scaffold": "ruby ./scripts/scaffold.rb"
+    "scaffold": "ruby ./scripts/boot.rb"
   },
   "author": "Steven Gregory",
   "license": "ISC",

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./scripts/config.sh
+source ./config/scaffold.sh
 source ./scripts/messages.sh
 
 create_base_dir() {
