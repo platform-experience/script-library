@@ -26,7 +26,7 @@ class Scaffold
         description = item[:description]
         details = !item[:details].empty? ? item[:details] : item[:description]
         script = item[:script]
-        dir_name = "dist/#{to_slug(category)}/si-script-#{count}"
+        dir_name = "src/#{to_slug(category)}/si-script-#{count}"
         FileUtils.mkdir_p(dir_name) unless File.exists?(dir_name)
         File.write("#{dir_name}/script.js", script)
         create_config(dir_name, category, description)
