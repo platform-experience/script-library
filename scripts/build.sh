@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ./config/scaffold.sh
-source ./scripts/messages.sh
+source ./config/messages.sh
 
 create_base_dir() {
   echo -e "${BLUE}${START_MSG}${RESET}"
