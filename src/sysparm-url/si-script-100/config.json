@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "SysParm URL",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "Create a list of incidents, problems, and change requests related to your CI",
+  "type": "Script",
+  "version": "1.0.0"
+}

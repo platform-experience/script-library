@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Business Rule",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "Populating an Array of Recipients (Vendors) for an Email Notification",
+  "type": "Script",
+  "version": "1.0.0"
+}

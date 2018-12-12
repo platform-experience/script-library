@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Background Script",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "Script to Trim a string from all labels due to translated text error",
+  "type": "Script",
+  "version": "1.0.0"
+}

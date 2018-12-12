@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "UI Action",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "Mark as SPAM",
+  "type": "Script",
+  "version": "1.0.0"
+}

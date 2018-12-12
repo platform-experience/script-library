@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Client Script",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "To perform an Ajax call to see if someone already has access to an application",
+  "type": "Script",
+  "version": "1.0.0"
+}

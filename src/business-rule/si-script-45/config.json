@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Business Rule",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "Setting a Grand Total Cost on a Work Order Task from all the Required Parts",
+  "type": "Script",
+  "version": "1.0.0"
+}

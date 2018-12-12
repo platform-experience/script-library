@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Workflow",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "To pass a Service Catalog Variable to a Workflow field",
+  "type": "Script",
+  "version": "1.0.0"
+}

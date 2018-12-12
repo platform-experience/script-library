@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "category": "Script Actions",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "common-name": "Temp Common Name",
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "temp-name",
+  "solution-details": "var oldName = 'Koch Fertilizer';  var newName = 'Koch Ag Temp details Energy Services'; var oldNamePattern = ne",
+  "type": "Script",
+  "version": "1.0.0"
+}

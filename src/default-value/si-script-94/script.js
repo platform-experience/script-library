@@ -1,0 +1,1 @@
+javascript:gs.getUser().getCompanyID()
