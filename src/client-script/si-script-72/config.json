@@ -1,13 +1,13 @@
 {
   "active": true,
   "category": "Client Script",
+  "common-name": "Temp Common Name",
   "compatibility": [
     "Jakarta",
     "Kingston",
     "London",
     "Madrid"
   ],
-  "common-name": "Temp Common Name",
   "contributors": [
     "Stephane Lalonde"
   ],
@@ -16,6 +16,7 @@
     "snippet"
   ],
   "name": "temp-name",
+  "publishing-goal": "Documentation",
   "solution-details": "A Client Script that sets a Value Based on CI Class",
   "type": "Script",
   "version": "1.0.0"

@@ -1,13 +1,13 @@
 {
   "active": true,
   "category": "Background Script",
+  "common-name": "Temp Common Name",
   "compatibility": [
     "Jakarta",
     "Kingston",
     "London",
     "Madrid"
   ],
-  "common-name": "Temp Common Name",
   "contributors": [
     "Stephane Lalonde"
   ],
@@ -16,6 +16,7 @@
     "snippet"
   ],
   "name": "temp-name",
+  "publishing-goal": "Documentation",
   "solution-details": "Script to replace text in knowledge base articles",
   "type": "Script",
   "version": "1.0.0"

@@ -1,13 +1,13 @@
 {
   "active": true,
   "category": "Background Script",
+  "common-name": "Temp Common Name",
   "compatibility": [
     "Jakarta",
     "Kingston",
     "London",
     "Madrid"
   ],
-  "common-name": "Temp Common Name",
   "contributors": [
     "Stephane Lalonde"
   ],
@@ -16,6 +16,7 @@
     "snippet"
   ],
   "name": "temp-name",
+  "publishing-goal": "Documentation",
   "solution-details": "Script to Inactivate all Users in a POV system other than admin, itil, and employee",
   "type": "Script",
   "version": "1.0.0"
