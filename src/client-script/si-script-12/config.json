@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Client Script",
-  "common-name": "Temp Common Name",
+  "common-name": "Validate Form",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-12",
   "publishing-goal": "Documentation",
-  "solution-details": "Validate a form before submitting ",
+  "solution-details": "Validate a form before submitting.",
   "type": "Script",
   "version": "1.0.0"
 }

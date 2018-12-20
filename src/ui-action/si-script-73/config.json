@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "UI Action",
-  "common-name": "Temp Common Name",
+  "common-name": "Version KB Article",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-73",
   "publishing-goal": "Documentation",
-  "solution-details": "Generating a new Version of a KB Article",
+  "solution-details": "Generating a new version of a KB Article.",
   "type": "Script",
   "version": "1.0.0"
 }

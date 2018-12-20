@@ -1,4 +1,4 @@
-Called from: Check Existing App Access (cmdb_ci)
+// Called from: Check Existing App Access (cmdb_ci)
 
 var AppAccessChecker = Class.create();
 

@@ -1,5 +1,5 @@
-# Temp Title
+# Temp Details
 
 ## Description
 
-Temp details
+Temp details.

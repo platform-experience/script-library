@@ -1,5 +1,5 @@
-# To create an HR Case on new inbound email
+# HR Case Email
 
 ## Description
 
-To create an HR Case on new inbound email
+To create an HR Case on new inbound email.

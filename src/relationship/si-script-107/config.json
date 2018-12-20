@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Relationship",
-  "common-name": "Temp Common Name",
+  "common-name": "Related Lists & Relationships",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-107",
   "publishing-goal": "Documentation",
-  "solution-details": "New Related Lists via Relationships",
+  "solution-details": "New Related Lists via Relationships.",
   "type": "Script",
   "version": "1.0.0"
 }

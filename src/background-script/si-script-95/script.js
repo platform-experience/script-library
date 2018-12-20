@@ -1,4 +1,4 @@
-You have to run this multiple times to catch each occurance of the string you are replacing.
+// You have to run this multiple times to catch each occurance of the string you are replacing.
 var gr = new GlideRecord('kb_knowledge');
 gr.query();
 while (gr.next()) {

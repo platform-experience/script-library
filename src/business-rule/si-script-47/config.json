@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Pass Order Charges",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-47",
   "publishing-goal": "Documentation",
-  "solution-details": "Pass Total Charges to Parent work order",
+  "solution-details": "Pass Total Charges to Parent work order.",
   "type": "Script",
   "version": "1.0.0"
 }

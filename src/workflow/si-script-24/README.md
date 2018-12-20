@@ -1,5 +1,5 @@
-# Setting Variables in Create User Account Activity
+# Set User Account Activity
 
 ## Description
 
-Setting Variables in Create User Account Activity
+Setting Variables in Create User Account Activity.

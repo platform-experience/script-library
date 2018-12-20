@@ -1,5 +1,5 @@
-# var oldName = 'Koch Fertilizer';  var newName = 'Koch Ag Temp Title Energy Services'; var oldNamePattern = ne
+# Event Creation & Updates
 
 ## Description
 
-var oldName = 'Koch Fertilizer';  var newName = 'Koch Ag Temp details Energy Services'; var oldNamePattern = ne
+How to create an event and update a field on a record for a document that has been attached either via the paperclip or through an inbound email action.

@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Scheduled Jobs",
-  "common-name": "Temp Common Name",
+  "common-name": "Replace Regular Expression",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-57",
   "publishing-goal": "Documentation",
-  "solution-details": "Replace a regualar expression (string) in a KB Article",
+  "solution-details": "Replace a regular expression (string) in a KB Article.",
   "type": "Script",
   "version": "1.0.0"
 }

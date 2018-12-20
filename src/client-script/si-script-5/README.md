@@ -1,5 +1,5 @@
-# Validate a String
+# Validate String
 
 ## Description
 
-Temp details
+Validate a string.

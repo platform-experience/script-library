@@ -2,4 +2,4 @@
 
 ## Description
 
-Inactivity Monitor
+Inactivity Monitor.

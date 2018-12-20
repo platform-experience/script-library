@@ -1,5 +1,5 @@
-# Due date not in the past
+# Past Due Date
 
 ## Description
 
-Temp details
+Due date not in the past.

@@ -1,5 +1,5 @@
-# Pass Total Charges to Parent work order
+# Pass Order Charges
 
 ## Description
 
-Pass Total Charges to Parent work order
+Pass Total Charges to Parent work order.

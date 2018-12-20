@@ -1,5 +1,5 @@
-# To set a default value for a company
+# Default Company Value
 
 ## Description
 
-To set a default value for a company
+To set a default value for a company.

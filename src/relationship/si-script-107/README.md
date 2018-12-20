@@ -1,5 +1,5 @@
-# New Related Lists via Relationships
+# Related Lists & Relationships
 
 ## Description
 
-New Related Lists via Relationships
+New Related Lists via Relationships.

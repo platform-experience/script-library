@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "UI Action",
-  "common-name": "Temp Common Name",
+  "common-name": "Create Form Action",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-10",
   "publishing-goal": "Documentation",
-  "solution-details": "Create an action for the form ",
+  "solution-details": "Create an action for the form.",
   "type": "Script",
   "version": "1.0.0"
 }

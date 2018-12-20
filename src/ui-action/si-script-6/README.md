@@ -1,5 +1,5 @@
-# Configure UI Action based on Conditions 
+# Conditional Configuration
 
 ## Description
 
-Temp details
+Configure UI Action based on conditions.

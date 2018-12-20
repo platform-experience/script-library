@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Accelerate Start Date",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-37",
   "publishing-goal": "Documentation",
-  "solution-details": "TO accelerate a Start Date",
+  "solution-details": "TO accelerate a Start Date.",
   "type": "Script",
   "version": "1.0.0"
 }

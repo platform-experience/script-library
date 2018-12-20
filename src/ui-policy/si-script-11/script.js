@@ -1,1 +1,1 @@
-Right-Click on field | Personalize Dictionary | Select Mandatory
+// Right-Click on field | Personalize Dictionary | Select Mandatory

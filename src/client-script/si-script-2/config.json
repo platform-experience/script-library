@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Client Script",
-  "common-name": "Temp Common Name",
+  "common-name": "Past Due Date",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-2",
   "publishing-goal": "Documentation",
-  "solution-details": "Due date not in the past",
+  "solution-details": "Due date not in the past.",
   "type": "Script",
   "version": "1.0.0"
 }

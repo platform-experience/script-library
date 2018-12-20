@@ -1,5 +1,5 @@
-# Set a field based on another field being updated 
+# Set Related Field
 
 ## Description
 
-Temp details
+Set a field based on another field being updated.

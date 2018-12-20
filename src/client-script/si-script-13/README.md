@@ -1,5 +1,5 @@
-# Hide or display a field based on another field on the form
+# Field Visibility
 
 ## Description
 
-Hide or display a field based on another field on the form
+Hide or display a field based on another field on the form.

@@ -1,5 +1,5 @@
-# Validate a form before submitting 
+# Validate Form
 
 ## Description
 
-Temp details
+Validate a form before submitting.

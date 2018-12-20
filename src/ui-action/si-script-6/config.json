@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "UI Action",
-  "common-name": "Temp Common Name",
+  "common-name": "Conditional Configuration",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-6",
   "publishing-goal": "Documentation",
-  "solution-details": "Configure UI Action based on Conditions ",
+  "solution-details": "Configure UI Action based on conditions.",
   "type": "Script",
   "version": "1.0.0"
 }

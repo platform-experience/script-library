@@ -1,5 +1,5 @@
-# Generating a new Version of a KB Article
+# Version KB Article
 
 ## Description
 
-Generating a new Version of a KB Article
+Generating a new version of a KB Article.

@@ -1,5 +1,5 @@
-# Set field to mandatory
+# Set Mandatory Field
 
 ## Description
 
-Set field to mandatory
+Set field to mandatory.

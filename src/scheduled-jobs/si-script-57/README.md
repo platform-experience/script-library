@@ -1,5 +1,5 @@
-# Replace a regualar expression (string) in a KB Article
+# Replace Regular Expression
 
 ## Description
 
-Replace a regualar expression (string) in a KB Article
+Replace a regular expression (string) in a KB Article.

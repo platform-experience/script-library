@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Set Related Value",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-49",
   "publishing-goal": "Documentation",
-  "solution-details": "Setting a value via another value in a business rule",
+  "solution-details": "Setting a value via another value in a business rule.",
   "type": "Script",
   "version": "1.0.0"
 }

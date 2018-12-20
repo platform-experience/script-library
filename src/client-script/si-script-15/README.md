@@ -1,5 +1,5 @@
-# Set field based on logged in user
+# Logged In User
 
 ## Description
 
-Set field based on logged in user
+Set field based on logged in user.

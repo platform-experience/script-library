@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "UI Policy",
-  "common-name": "Temp Common Name",
+  "common-name": "Info Based Response",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-9",
   "publishing-goal": "Documentation",
-  "solution-details": "Show information based on a response ",
+  "solution-details": "Show information based on a response.",
   "type": "Script",
   "version": "1.0.0"
 }

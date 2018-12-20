@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Force Service View Case",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-48",
   "publishing-goal": "Documentation",
-  "solution-details": "Force end user to a self service view of HR Case",
+  "solution-details": "Force end user to a self service view of HR Case.",
   "type": "Script",
   "version": "1.0.0"
 }

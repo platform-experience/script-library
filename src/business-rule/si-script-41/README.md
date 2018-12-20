@@ -1,5 +1,5 @@
-# CTI Processing for something other than Incident
+# CTI Incident Processing
 
 ## Description
 
-CTI Processing for something other than Incident
+CTI Processing for something other than Incident.

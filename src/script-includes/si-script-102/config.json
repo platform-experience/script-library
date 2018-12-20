@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Script Includes",
-  "common-name": "Temp Common Name",
+  "common-name": "Roles for Catalog Var",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-102",
   "publishing-goal": "Documentation",
-  "solution-details": "Get Available Roles for Application Specified in Service Catalog Variable",
+  "solution-details": "Get Available Roles for Application Specified in Service Catalog Variable.",
   "type": "Script",
   "version": "1.0.0"
 }

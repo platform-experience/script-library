@@ -1,5 +1,5 @@
-# CTI Processing for HR Case  (Global Table Business Rule)
+# CTI HR Case
 
 ## Description
 
-CTI Processing for HR Case  (Global Table Business Rule)
+CTI Processing for HR Case  (Global Table Business Rule).

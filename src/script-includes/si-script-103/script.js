@@ -1,4 +1,4 @@
-Client Script
+// Client Script
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue == '') {
 	   return;
@@ -21,7 +21,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    g_form.setValue('u_total_cost.display', parseFloat(PartsSubTotal));
 
 }
-Script Include
+// Script Include
 
 var CalcPartsSubTotal = Class.create();
 
@@ -42,11 +42,11 @@ CalcPartsSubTotal.prototype = Object.extendsObject(AbstractAjaxProcessor, {
    }
 });
 
-An Simple alternative would have been to use this business rule, but the update only happens after the Save.
+// An Simple alternative would have been to use this business rule, but the update only happens after the Save.
 
 
-Finally, here is a client script that works by itself.
-The key is using .display and parseFloat together.
+// Finally, here is a client script that works by itself.
+// The key is using .display and parseFloat together.
 
 function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue == '') {

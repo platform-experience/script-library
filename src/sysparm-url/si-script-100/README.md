@@ -1,5 +1,5 @@
-# Create a list of incidents, problems, and change requests related to your CI
+# Related CI List
 
 ## Description
 
-Create a list of incidents, problems, and change requests related to your CI
+Create a list of incidents, problems, and change requests related to your CI.

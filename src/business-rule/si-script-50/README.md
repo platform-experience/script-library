@@ -1,5 +1,5 @@
-# Populating an Array of Recipients (Vendors) for an Email Notification
+# Populate Array for Email
 
 ## Description
 
-Temp details
+Populating an Array of Recipients (Vendors) for an Email Notification.

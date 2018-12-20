@@ -1,5 +1,5 @@
-# To see document attached to a case
+# Document Attachment Case
 
 ## Description
 
-To see document attached to a case
+To see document attached to a case.

@@ -1,5 +1,5 @@
-# Show information based on a response 
+# Info Based Response
 
 ## Description
 
-Temp details
+Show information based on a response.

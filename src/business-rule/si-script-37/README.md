@@ -1,4 +1,4 @@
-# TO accelerate a Start Date
+# Accelerate Start Date
 
 ## Description
 

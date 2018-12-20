@@ -1,5 +1,5 @@
-# Checking to See if a User Already has Access to an Application
+# Check User Access
 
 ## Description
 
-Checking to See if a User Already has Access to an Application
+Checking to See if a User Already has Access to an Application.

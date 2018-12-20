@@ -1,4 +1,4 @@
-# To send a notification to people who liked a KB article.
+# KB Article Message
 
 ## Description
 

@@ -1,5 +1,5 @@
-# Set a field as mandatory 
+# Set Mandatory Field
 
 ## Description
 
-Temp details
+Set a field as mandatory.

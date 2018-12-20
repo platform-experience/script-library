@@ -1,5 +1,5 @@
-# Script to replace text in knowledge base articles
+# Replace KB Text
 
 ## Description
 
-Script to replace text in knowledge base articles
+Script to replace text in knowledge base articles.

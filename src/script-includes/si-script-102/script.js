@@ -1,5 +1,4 @@
-Called From: Populate the Access Level Box
-
+// Called From: Populate the Access Level Box
 
 // **Notes Name must match Client Script where you great a new GlideAjax. Also Client callable needs to be checked.
 // gs.log("Inside the function YYYY"); // (Use gs.log to help debug by printing messages to the Script Logs)
