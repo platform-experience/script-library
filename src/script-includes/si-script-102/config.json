@@ -15,7 +15,7 @@
     "script",
     "snippet"
   ],
-  "name": "temp-name",
+  "name": "si-script-102",
   "publishing-goal": "Documentation",
   "solution-details": "Get Available Roles for Application Specified in Service Catalog Variable",
   "type": "Script",

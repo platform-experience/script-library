@@ -15,7 +15,7 @@
     "script",
     "snippet"
   ],
-  "name": "temp-name",
+  "name": "si-script-96",
   "publishing-goal": "Documentation",
   "solution-details": "Script to Inactivate all Users in a POV system other than admin, itil, and employee",
   "type": "Script",

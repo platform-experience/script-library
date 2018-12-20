@@ -15,7 +15,7 @@
     "script",
     "snippet"
   ],
-  "name": "temp-name",
+  "name": "si-script-63",
   "publishing-goal": "Documentation",
   "solution-details": "To filter the choices in a list collector based on the value of another field",
   "type": "Script",

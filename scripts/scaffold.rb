@@ -4,15 +4,16 @@ require_relative '../config/temp'
 require_relative 'map_xml'
 
 class Scaffold
-  def self.create_config(dir_name, category, details)
-    config_dir = "#{dir_name}/config.json"
+  def self.create_config(dir_name, dir_path, category, details)
+    config_dir = "#{dir_path}/config.json"
     %x( curl #{Gist::CONFIG} > #{config_dir} )
+    replace_content(Temp::NAME, dir_name, config_dir)
     replace_content(Temp::CATEGORY, category, config_dir)
     replace_content(Temp::SOLUTION_DETAILS, details, config_dir)
   end
 
-  def self.create_readme(dir_name, description, details)
-    readme_dir = "#{dir_name}/README.md"
+  def self.create_readme(dir_path, description, details)
+    readme_dir = "#{dir_path}/README.md"
     %x( curl #{Gist::README} > #{readme_dir} )
     replace_content(Temp::TITLE, description, readme_dir)
     replace_content(Temp::SOLUTION_DETAILS, details, readme_dir)
@@ -26,11 +27,12 @@ class Scaffold
         description = item[:description]
         details = !item[:details].empty? ? item[:details] : item[:description]
         script = item[:script]
-        dir_name = "src/#{to_slug(category)}/si-script-#{count}"
-        FileUtils.mkdir_p(dir_name) unless File.exists?(dir_name)
-        File.write("#{dir_name}/script.js", script)
-        create_config(dir_name, category, description)
-        create_readme(dir_name, description, details)
+        dir_name = "si-script-#{count}"
+        dir_path = "src/#{to_slug(category)}/#{dir_name}"
+        FileUtils.mkdir_p(dir_path) unless File.exists?(dir_path)
+        File.write("#{dir_path}/script.js", script)
+        create_config(dir_name, dir_path, category, description)
+        create_readme(dir_path, description, details)
         count = count + 1
       end
     end

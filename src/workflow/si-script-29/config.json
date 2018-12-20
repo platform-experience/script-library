@@ -15,7 +15,7 @@
     "script",
     "snippet"
   ],
-  "name": "temp-name",
+  "name": "si-script-29",
   "publishing-goal": "Documentation",
   "solution-details": "Another way of passing variables in a workflow that uses RBA to temporarilty elevate privledges",
   "type": "Script",
