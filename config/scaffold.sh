@@ -19,6 +19,7 @@ CAT_WORKFLOW='Workflow'
 # gists
 CONFIG_GIST=https://gist.githubusercontent.com/stevengregory/8678d518182fd6f3497680ae1e26e870/raw/7637dbb7afa8915daf3527b5438b2aadad3d1cfd/config.json
 README_GIST=https://gist.githubusercontent.com/stevengregory/312026b03c90b695c9052e54eaa1cc87/raw/e79500c1a736997806897149a19371f5d4eaa2db/README.md
+CTRL_GIST=https://gist.githubusercontent.com/stevengregory/dbb5bd48c6ecfcc26963a254dcb6eed1/raw/6f3a4cccdc61ca992b0585e6d3b01a3799201795/controller.js
 
 # prefix
 PREFIX=si
