@@ -1,7 +1,7 @@
 {
   "active": true,
-  "category": "Scheduled Jobs",
-  "common-name": "Remind KB Review",
+  "category": "Script Include",
+  "common-name": "Check User Access",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "si-script-56",
+  "name": "si-script-101",
   "publishing-goal": "Documentation",
-  "solution-details": "Remind KB Reviewers to review articles.",
+  "solution-details": "Checking to See if a User Already has Access to an Application.",
   "type": "Script",
   "version": "1.0.0"
 }

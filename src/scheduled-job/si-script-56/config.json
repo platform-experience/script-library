@@ -1,7 +1,7 @@
 {
   "active": true,
-  "category": "Script Includes",
-  "common-name": "Roles for Catalog Var",
+  "category": "Scheduled Job",
+  "common-name": "Remind KB Review",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "si-script-102",
+  "name": "si-script-56",
   "publishing-goal": "Documentation",
-  "solution-details": "Get Available Roles for Application Specified in Service Catalog Variable.",
+  "solution-details": "Remind KB Reviewers to review articles.",
   "type": "Script",
   "version": "1.0.0"
 }

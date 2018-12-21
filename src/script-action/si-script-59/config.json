@@ -1,7 +1,7 @@
 {
   "active": true,
-  "category": "Script Includes",
-  "common-name": "Currency Calculation",
+  "category": "Script Action",
+  "common-name": "Inactivity Monitor",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "si-script-103",
+  "name": "si-script-59",
   "publishing-goal": "Documentation",
-  "solution-details": "Calculating with Currency via a Client Script that Performs an Ajax call to a Script Include.",
+  "solution-details": "Inactivity Monitor.",
   "type": "Script",
   "version": "1.0.0"
 }

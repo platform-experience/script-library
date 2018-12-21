@@ -1,7 +1,7 @@
 {
   "active": true,
-  "category": "Script Actions",
-  "common-name": "Event Creation & Updates",
+  "category": "Script Include",
+  "common-name": "Roles for Catalog Var",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "si-script-58",
+  "name": "si-script-102",
   "publishing-goal": "Documentation",
-  "solution-details": "How to create an event and update a field on a record for a document that has been attached either via the paperclip or through an inbound email action.",
+  "solution-details": "Get Available Roles for Application Specified in Service Catalog Variable.",
   "type": "Script",
   "version": "1.0.0"
 }

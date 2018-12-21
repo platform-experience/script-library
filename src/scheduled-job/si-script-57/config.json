@@ -1,7 +1,7 @@
 {
   "active": true,
-  "category": "Script Includes",
-  "common-name": "Check User Access",
+  "category": "Scheduled Job",
+  "common-name": "Replace Regular Expression",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "si-script-101",
+  "name": "si-script-57",
   "publishing-goal": "Documentation",
-  "solution-details": "Checking to See if a User Already has Access to an Application.",
+  "solution-details": "Replace a regular expression (string) in a KB Article.",
   "type": "Script",
   "version": "1.0.0"
 }
