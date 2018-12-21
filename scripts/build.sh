@@ -10,7 +10,7 @@ create_base_dir() {
     echo -e "${BLUE}${EXIST_MSG}${RESET}"
   else
     echo -e "${BLUE}${SCAFFOLD_MSG}${RESET}"
-    mkdir "./src/${category}/${PREFIX}-${name}"
+    mkdir -p "./src/${category}/${PREFIX}-${name}"
     create_config
     create_readme
     touch ${script_dir}/script.js
