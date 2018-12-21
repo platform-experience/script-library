@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "category": "Client Controller",
+  "common-name": "Embedded Widget",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "script-115",
+  "publishing-goal": "Documentation",
+  "solution-details": "A Client Controller script using spUtil.get() to embed a widget in Service Portal.",
+  "type": "Script",
+  "version": "1.0.0"
+}
