@@ -21,13 +21,21 @@ create_config() {
   curl ${CONFIG_GIST} > ${script_dir}/config.json
   map_category ${script_dir}
   replace_content "${NAME_TEMP}" "${name}" ${script_dir}/config.json
-  replace_content "${COMMON_NAME_TEMP}" "${common_name}" ${script_dir}/config.json
+  if [ $common_name ]; then
+    replace_content "${COMMON_NAME_TEMP}" "${common_name}" ${script_dir}/config.json
+  else
+    replace_content "${COMMON_NAME_TEMP}" "${name}" ${script_dir}/config.json
+  fi
   replace_content "${SOLUTION_DETAILS_TEMP}" "${solution_details}" ${script_dir}/config.json
 }
 
 create_readme() {
   curl ${README_GIST} > ${script_dir}/README.md
-  replace_content "${TITLE_TEMP}" "${common_name}" ${script_dir}/README.md
+  if [ $common_name ]; then
+    replace_content "${TITLE_TEMP}" "${common_name}" ${script_dir}/README.md
+  else
+    replace_content "${TITLE_TEMP}" "${name}" ${script_dir}/README.md
+  fi
   replace_content "${DETAILS_TEMP}" "${solution_details}" ${script_dir}/README.md
 }
 
