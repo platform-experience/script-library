@@ -1,5 +1,5 @@
-# Generating a random, complex password
+# Generate Complex Password
 
 ## Description
 
-Generating a random, complex password
+Generating a random, complex password.

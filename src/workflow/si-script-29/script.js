@@ -1,5 +1,5 @@
-Within a Run Script Activity
-Note that user_name and group_name variables are references
+// Within a Run Script Activity
+// Note that user_name and group_name variables are references
 PassVariables();
 
 function PassVariables() {

@@ -1,5 +1,5 @@
-# Business Rule – activity events
+# Activity Events
 
 ## Description
 
-Business Rule – activity events
+Business Rule – activity events.

@@ -1,5 +1,5 @@
-# To Create a CI in a Workflow (Run Script Action)
+# Create CI
 
 ## Description
 
-To Create a CI in a Workflow (Run Script Action)
+To Create a CI in a Workflow (Run Script Action).

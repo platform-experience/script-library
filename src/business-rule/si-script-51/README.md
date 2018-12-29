@@ -2,4 +2,4 @@
 
 ## Description
 
-Reopen Count
+Reopen Count.

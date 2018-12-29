@@ -1,5 +1,5 @@
-# This grabs the Business Service Owner's approval for any upstream CI's
+# Get CI Approval
 
 ## Description
 
-This grabs the Business Service Owner's approval for any upstream CI's
+This grabs the Business Service Owner's approval for any upstream CI's.

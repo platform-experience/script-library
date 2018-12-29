@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Release Progression Gate",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-112",
   "publishing-goal": "Documentation",
-  "solution-details": "Release Progression Gate",
+  "solution-details": "Release Progression Gate.",
   "type": "Script",
   "version": "1.0.0"
 }

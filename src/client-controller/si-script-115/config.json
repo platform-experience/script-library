@@ -9,11 +9,13 @@
     "Madrid"
   ],
   "contributors": [
-    "Stephane Lalonde"
+    "Steven Gregory"
   ],
   "keywords": [
     "script",
-    "snippet"
+    "snippet",
+    "controller",
+    "widget"
   ],
   "name": "script-115",
   "publishing-goal": "Documentation",

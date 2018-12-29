@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Business Rule",
-  "common-name": "Temp Common Name",
+  "common-name": "Create Expense Line",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-53",
   "publishing-goal": "Documentation",
-  "solution-details": "Represented by an An Expense Line (fm_expense_line) and an An Expense Allocation (fm_expense_allocat",
+  "solution-details": "Represented by an An Expense Line (fm_expense_line) and an An Expense Allocation (fm_expense_allocate).",
   "type": "Script",
   "version": "1.0.0"
 }

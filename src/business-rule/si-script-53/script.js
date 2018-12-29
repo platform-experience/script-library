@@ -1,4 +1,4 @@
-Business Rule to Create the Expense Line
+// Business Rule to Create the Expense Line
 var tableName = current.sys_class_name;
 var recordId = current.sys_id;
 var cost = current.cost;
@@ -19,6 +19,5 @@ function createExpenseLine(tableName,recordId,cost){
   expLine.insert();
 }
 
-
-Expense Allocation
-Summary TYpe = Run Business
+// Expense Allocation
+// Summary Type = Run Business

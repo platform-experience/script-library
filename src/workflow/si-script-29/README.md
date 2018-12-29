@@ -1,5 +1,5 @@
-# Another way of passing variables in a workflow that uses RBA to temporarilty elevate privledges
+# RBA Elevate Privileges
 
 ## Description
 
-Another way of passing variables in a workflow that uses RBA to temporarilty elevate privledges
+Another way of passing variables in a workflow that uses RBA to temporarily elevate privileges.

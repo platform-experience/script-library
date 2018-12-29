@@ -2,4 +2,4 @@
 
 ## Description
 
-Temp details
+Release Progression Gate.

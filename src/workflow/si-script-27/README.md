@@ -1,5 +1,5 @@
-# Notification Message for New Employee OnBoarding
+# OnBoarding Message
 
 ## Description
 
-Notification Message for New Employee OnBoarding
+Notification Message for New Employee OnBoarding.

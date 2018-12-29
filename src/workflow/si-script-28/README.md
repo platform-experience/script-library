@@ -1,5 +1,5 @@
-# Assigning Tasks in the Workflow
+# Assign Tasks
 
 ## Description
 
-Assigning Tasks in the Workflow
+Assigning Tasks in the Workflow.

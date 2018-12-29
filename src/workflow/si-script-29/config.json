@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Workflow",
-  "common-name": "Temp Common Name",
+  "common-name": "RBA Elevate Privileges",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -17,7 +17,7 @@
   ],
   "name": "si-script-29",
   "publishing-goal": "Documentation",
-  "solution-details": "Another way of passing variables in a workflow that uses RBA to temporarilty elevate privledges",
+  "solution-details": "Another way of passing variables in a workflow that uses RBA to temporarily elevate privileges.",
   "type": "Script",
   "version": "1.0.0"
 }

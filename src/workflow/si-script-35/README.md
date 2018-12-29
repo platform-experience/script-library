@@ -1,4 +1,4 @@
-# Script for referencing a Variable in a Service Catalog Item Request Workflow IF Condition.
+# Service Catalog Reference
 
 ## Description
 

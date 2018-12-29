@@ -1,4 +1,4 @@
-a.	Created a client script: Make WorkNote Reqd w Priority Lwr.  This script set the Work Notes to mandatory, set the Priority Lowered field to true, and posted a warning message
+// a.	Created a client script: Make WorkNote Reqd w Priority Lwr.  This script set the Work Notes to mandatory, set the Priority Lowered field to true, and posted a warning message
 function onChange(control, oldValue, newValue) {
    if (oldValue > newValue) {
    // if ((oldValue == '1' || '2') && (newValue == '3' || '4' || '5')) {
