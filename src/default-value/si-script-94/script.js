@@ -1,1 +1,1 @@
-javascript:gs.getUser().getCompanyID()
+javascript: gs.getUser().getCompanyID();

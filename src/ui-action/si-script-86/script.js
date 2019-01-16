@@ -1,5 +1,4 @@
-Script:
-var sc_rqst = new GlideRecord("sc_request");
+Script: var sc_rqst = new GlideRecord('sc_request');
 sc_rqst.short_description = current.short_description;
 //sc_rqst.cmdb_ci = current.cmdb_ci;
 sc_rqst.requested_for = current.caller_id;

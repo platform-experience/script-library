@@ -1,6 +1,4 @@
-Conditions:
-current.hasAttachments()
+Conditions: current.hasAttachments();
 
-Script:
-current.u_documentation_received = true;
+Script: current.u_documentation_received = true;
 current.update();

@@ -1,7 +1,7 @@
-var change = new GlideRecord("change_request");
+var change = new GlideRecord('change_request');
 //change.short_description = "Reconfigure Switch Ports";
 
-change.applyTemplate("Switch Port Config");
+change.applyTemplate('Switch Port Config');
 change.cmdb_ci = current.sys_id;
 
 //change.priority = '2';
@@ -13,6 +13,6 @@ var sysID = change.insert();
 current.change_id = sysID;
 var mySysID = current.update();
 
-gs.addInfoMessage("Change Request " + change.number + " created");
+gs.addInfoMessage('Change Request ' + change.number + ' created');
 action.setRedirectURL(change);
 action.setReturnURL(current);

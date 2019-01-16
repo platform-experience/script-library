@@ -3,11 +3,9 @@
 PassVariables();
 
 function PassVariables() {
-
-   //workflow.scratchpad.adUser = "eric.hemmer";
-   workflow.scratchpad.adUser = current.variables.user_name.user_name;
-   //workflow.scratchpad.adGroups = "Database";
-   workflow.scratchpad.adGroups = current.variables.group_name.name;
-   //current.calendar_duration = current.variables.calendar_duration;
-
+  //workflow.scratchpad.adUser = "eric.hemmer";
+  workflow.scratchpad.adUser = current.variables.user_name.user_name;
+  //workflow.scratchpad.adGroups = "Database";
+  workflow.scratchpad.adGroups = current.variables.group_name.name;
+  //current.calendar_duration = current.variables.calendar_duration;
 }

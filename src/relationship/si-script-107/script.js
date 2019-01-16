@@ -1,11 +1,7 @@
-Service Calls by the same Caller
+// Service Calls by the same Caller
 
-Case by the same Caller or Affected Employee
+// Case by the same Caller or Affected Employee
 
+// Related Cases by Category and Subcategory
 
-Related Cases by Category and Subcategory
-
-
-
-
-Recent knowledge article KB viewed by employee (opened_for)
+// Recent knowledge article KB viewed by employee (opened_for)

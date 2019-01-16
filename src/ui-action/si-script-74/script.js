@@ -3,9 +3,9 @@ var parent = new GlideRecord('kb_knowledge');
 parent.addQuery('sys_id', current.u_parent);
 parent.query();
 while (parent.next()) {
-   parent.workflow_state = 'retired';
-   parent.retired = gs.nowDateTime();
-   parent.update ();
+  parent.workflow_state = 'retired';
+  parent.retired = gs.nowDateTime();
+  parent.update();
 }
 
 // publish current version

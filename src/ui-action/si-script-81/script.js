@@ -1,4 +1,4 @@
-var vis = new GlideRecord("u_visits");
+var vis = new GlideRecord('u_visits');
 vis.u_visitor = current.sys_id;
 var sysID = vis.insert();
 

@@ -1,1 +1,1 @@
-javascript: gs.getUserID()
+javascript: gs.getUserID();

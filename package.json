@@ -5,10 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "./scripts/build.sh",
+    "pretty": "prettier --write 'src/**/*.js'",
     "scaffold": "ruby ./scripts/boot.rb",
     "test": "./scripts/test.sh"
   },
   "author": "Steven Gregory",
   "license": "ISC",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "yarn": "^1.13.0"
+  }
 }

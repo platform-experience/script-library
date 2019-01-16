@@ -6,7 +6,7 @@ newrecord.scripting_record = current.sys_id;
 
 var sysID = newrecord.insert();
 
-gs.addInfoMessage('A new record ' + newrecord.number + " was created");
+gs.addInfoMessage('A new record ' + newrecord.number + ' was created');
 //action.setRedirectURL(newrecord);
 //setRedirect() sets the next page that the user will see
 action.setRedirectURL(current);

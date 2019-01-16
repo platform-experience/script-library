@@ -7,10 +7,19 @@
 // ii.	Business Rule – activity events
 
 if (!current.assigned_to.nil() && current.assigned_to.changes()) {
-  gs.eventQueue("activity.assigned", current, current.assigned_to.getDisplayValue() , previous.assigned_to.getDisplayValue());
+  gs.eventQueue(
+    'activity.assigned',
+    current,
+    current.assigned_to.getDisplayValue(),
+    previous.assigned_to.getDisplayValue()
+  );
 }
 
-if (current.state.changesTo(3) || current.state.changesTo(4) || current.state.changesTo(7)){
-  gs.eventQueue("activity.completed", current, current.state, previous.state);
+if (
+  current.state.changesTo(3) ||
+  current.state.changesTo(4) ||
+  current.state.changesTo(7)
+) {
+  gs.eventQueue('activity.completed', current, current.state, previous.state);
   //gs.eventQueue("activity.completed", current, current.assigned_to.getDisplayValue() , previous.assigned_to.getDisplayValue());
 }

@@ -21,9 +21,9 @@ current.u_estimated_labor_charge = estimatedLaborCost;
 current.u_total_charges = actualTravelCost + actualLaborCost + actualPartsCost;
 
 function getHours(duration) {
-    var gdt = new GlideDateTime(duration);
-    var milliseconds = gdt.getNumericValue();
-    var hoursPerMs = 1 / 1000 / 60 / 60;
-    var hours = milliseconds * hoursPerMs;
-    return hours;
+  var gdt = new GlideDateTime(duration);
+  var milliseconds = gdt.getNumericValue();
+  var hoursPerMs = 1 / 1000 / 60 / 60;
+  var hours = milliseconds * hoursPerMs;
+  return hours;
 }
