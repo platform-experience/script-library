@@ -6,7 +6,7 @@ source ./config/messages.sh
 branch_checkout() {
   local branch=feature/${name}
   git fetch origin
-  if [[ $(git branch --list ${branch}) ]]; then
+  if [ $(git branch --list ${branch}) ]; then
     echo -e "${BLUE}${BRANCH_SWITCH_MSG}${RESET}"
     git checkout ${branch}
   else
@@ -17,12 +17,12 @@ branch_checkout() {
 
 create_base_dir() {
   echo -e "${BLUE}${START_MSG}${RESET}"
-  local script_dir="./${SRC_DIR}/${category}/${PREFIX}-${name}"
+  local script_dir=$(set_script_dir)
   if [ -d $script_dir ]; then
     echo -e "${BLUE}${EXIST_MSG}${RESET}"
   else
     echo -e "${BLUE}${SCAFFOLD_MSG}${RESET}"
-    mkdir -p "./${SRC_DIR}/${category}/${PREFIX}-${name}"
+    mkdir -p $script_dir
     create_config
     create_readme
     touch ${script_dir}/script.js
@@ -58,7 +58,7 @@ main() {
 }
 
 make_commit() {
-  local script_dir="./${SRC_DIR}/${category}/${PREFIX}-${name}"
+  local script_dir=$(set_script_dir)
   echo -e "${BLUE}${COMMIT_STATUS_MSG}${RESET}"
   git add ${script_dir}
   git commit -a -m "${COMMIT_MSG} ${name}"
@@ -116,6 +116,10 @@ map_category() {
 
 replace_content() {
   sed -i '' -e "s/${1}/${2}/g" ${3}
+}
+
+set_script_dir() {
+  echo "./${SRC_DIR}/${category}/${PREFIX}-${name}"
 }
 
 args=($@)
