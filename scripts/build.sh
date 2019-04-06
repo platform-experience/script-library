@@ -3,14 +3,26 @@
 source ./config/scaffold.sh
 source ./config/messages.sh
 
+branch_checkout() {
+  local branch=feature/${name}
+  git fetch origin
+  if [[ $(git branch --list ${branch}) ]]; then
+    echo -e "${BLUE}${BRANCH_SWITCH_MSG}${RESET}"
+    git checkout ${branch}
+  else
+    echo -e "${BLUE}${BRANCH_CREATE_MSG}${RESET}"
+    git checkout -b ${branch} origin/master
+  fi
+}
+
 create_base_dir() {
   echo -e "${BLUE}${START_MSG}${RESET}"
-  local script_dir="./src/${category}/${PREFIX}-${name}"
+  local script_dir="./${SRC_DIR}/${category}/${PREFIX}-${name}"
   if [ -d $script_dir ]; then
     echo -e "${BLUE}${EXIST_MSG}${RESET}"
   else
     echo -e "${BLUE}${SCAFFOLD_MSG}${RESET}"
-    mkdir -p "./src/${category}/${PREFIX}-${name}"
+    mkdir -p "./${SRC_DIR}/${category}/${PREFIX}-${name}"
     create_config
     create_readme
     touch ${script_dir}/script.js
@@ -41,6 +53,16 @@ create_readme() {
 
 main() {
   create_base_dir
+  branch_checkout
+  make_commit
+}
+
+make_commit() {
+  local script_dir="./${SRC_DIR}/${category}/${PREFIX}-${name}"
+  echo -e "${BLUE}${COMMIT_STATUS_MSG}${RESET}"
+  git add ${script_dir}
+  git commit -a -m "${COMMIT_MSG} ${name}"
+  echo -e "${GREEN}${DONE_MSG}${RESET}"
 }
 
 map_category() {

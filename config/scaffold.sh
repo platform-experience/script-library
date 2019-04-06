@@ -16,6 +16,9 @@ CAT_UI_POLICY='UI Policy'
 CAT_UI_SCRIPT='UI Script'
 CAT_WORKFLOW='Workflow'
 
+# directories
+SRC_DIR=src
+
 # gists
 CONFIG_GIST=https://gist.githubusercontent.com/stevengregory/8678d518182fd6f3497680ae1e26e870/raw/7637dbb7afa8915daf3527b5438b2aadad3d1cfd/config.json
 README_GIST=https://gist.githubusercontent.com/stevengregory/312026b03c90b695c9052e54eaa1cc87/raw/e79500c1a736997806897149a19371f5d4eaa2db/README.md
