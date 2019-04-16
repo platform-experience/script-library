@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "category": "Business Rule",
+  "common-name": "Auto Assign Availability",
+  "compatibility": [
+    "Madrid"
+  ],
+  "contributors": [
+    "Brian Nguyen"
+  ],
+  "keywords": [
+    "script",
+    "snippet",
+    "HR",
+    "Human Resources",
+    "Availability",
+    "Auto Assignment"
+  ],
+  "name": "si-script-116",
+  "publishing-goal": "Documentation",
+  "solution-details": "Disable/Enable whether or not you will be automatically assigned to a HR case.",
+  "type": "Script",
+  "version": "1.0.0"
+}
