@@ -1,7 +1,7 @@
 {
   "active": true,
   "category": "Temp Category",
-  "common-name": "entitlement",
+  "common-name": "",
   "compatibility": [
     "Jakarta",
     "Kingston",
@@ -15,9 +15,9 @@
     "script",
     "snippet"
   ],
-  "name": "case",
+  "name": "",
   "publishing-goal": "Documentation",
-  "solution-details": "hours",
+  "solution-details": "",
   "type": "Script",
   "version": "1.0.0"
 }

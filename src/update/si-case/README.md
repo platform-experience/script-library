@@ -1,5 +1,0 @@
-# entitlement
-
-## Description
-
-hours
