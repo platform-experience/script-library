@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "category": "Temp Category",
+  "common-name": "entitlement",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "contributors": [
+    "Stephane Lalonde"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "case",
+  "publishing-goal": "Documentation",
+  "solution-details": "hours",
+  "type": "Script",
+  "version": "1.0.0"
+}
