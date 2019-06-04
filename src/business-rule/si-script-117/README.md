@@ -1,4 +1,4 @@
-# Update entitlement hours after workorder =
+# Update entitlement hours after workorders
 
 ## Description
 
