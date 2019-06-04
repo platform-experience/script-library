@@ -1,0 +1,23 @@
+{
+  "active": true,
+  "category": "Temp Category",
+  "common-name": "",
+  "compatibility": [
+    "Jakarta",
+    "Kingston",
+    "London",
+    "Madrid"
+  ],
+  "contributors": [
+    "Allisa Liberto"
+  ],
+  "keywords": [
+    "script",
+    "snippet"
+  ],
+  "name": "si-script-117",
+  "publishing-goal": "Documentation",
+  "solution-details": "",
+  "type": "Script",
+  "version": "1.0.0"
+}
