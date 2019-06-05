@@ -25,10 +25,7 @@
   totalTime += gdCaseTime.getNumericValue();
 
   var gdTest = new GlideDuration(totalTime);
-  gs.info('totalTime: ' + gdTest.getDisplayValue());
   totalTime = Math.round(totalTime / 1000 / 60 / 60);
-
-  gs.info('Final result: ' + totalTime + ' hours');
 
   var entitlement = new GlideRecord('service_entitlement');
   if (
