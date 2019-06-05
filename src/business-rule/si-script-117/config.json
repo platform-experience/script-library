@@ -1,23 +1,13 @@
 {
   "active": true,
-  "category": "Temp Category",
-  "common-name": "",
-  "compatibility": [
-    "Jakarta",
-    "Kingston",
-    "London",
-    "Madrid"
-  ],
-  "contributors": [
-    "Allisa Liberto"
-  ],
-  "keywords": [
-    "script",
-    "snippet"
-  ],
+  "category": "Business Rule",
+  "common-name": "Update Entitlement Hours",
+  "compatibility": ["Jakarta", "Kingston", "London", "Madrid"],
+  "contributors": ["Allisa Liberto"],
+  "keywords": ["script", "snippet"],
   "name": "si-script-117",
   "publishing-goal": "Documentation",
-  "solution-details": "",
+  "solution-details": "Capture the hours worked on workorders from cases, add them together for a total time, and deduct from entitlement.",
   "type": "Script",
   "version": "1.0.0"
 }
